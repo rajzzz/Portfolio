@@ -1,1 +1,14 @@
-/* Add your custom styles here */
+body {
+  background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}

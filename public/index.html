@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Raj Singh | Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-gray-900 text-white font-sans">
 
   <!-- Navbar -->
-  <header class="p-4 bg-gray-800 shadow-lg">
-    <nav class="container mx-auto flex justify-between items-center">
+  <header class="p-4">
+    <nav class="container mx-auto flex justify-between items-center glass p-4">
       <h1 class="text-xl font-bold">Raj Singh</h1>
       <div class="space-x-4">
         <a href="#case-studies" class="hover:text-blue-400">Case Studies</a>
@@ -22,35 +23,47 @@
 
   <!-- Hero Section -->
   <section class="py-20 text-center">
-    <h2 class="text-4xl font-bold mb-4">Final-year CSE | Security & Backend Enthusiast</h2>
-    <p class="max-w-xl mx-auto text-gray-400">
-      Learning application & network security through Hack The Box, building small automation tools, and keeping DSA sharp for product roles.
-    </p>
-    <div class="mt-6 space-x-4">
-      <a href="https://github.com/rajzzz" target="_blank" class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded">GitHub</a>
-      <a href="https://x.com/yourhandle" target="_blank" class="bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded">X (Twitter)</a>
+    <div class="container mx-auto glass p-10">
+      <h2 class="text-4xl font-bold mb-4">Final-year CSE | Security & Backend Enthusiast</h2>
+      <p class="max-w-xl mx-auto text-gray-300">
+        Learning application & network security through Hack The Box, building small automation tools, and keeping DSA sharp for product roles.
+      </p>
+      <div class="mt-6 space-x-4">
+        <a href="https://github.com/rajzzz" target="_blank" class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded">GitHub</a>
+        <a href="https://x.com/yourhandle" target="_blank" class="bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded">X (Twitter)</a>
+      </div>
     </div>
   </section>
 
   <!-- Case Studies -->
-  <section id="case-studies" class="py-16 bg-gray-800">
-    <div class="container mx-auto px-6">
+  <section id="case-studies" class="py-16">
+    <div class="container mx-auto px-6 glass p-10">
       <h3 class="text-2xl font-bold mb-6">Case Studies</h3>
-      <p class="text-gray-400">Coming soon: Hack The Box writeups, STPI internship breakdown...</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-6 rounded-lg border border-gray-700">
+          <h4 class="font-bold text-lg mb-2">STPI Vulnerability Assessment</h4>
+          <p class="text-gray-400">A summary of tools used for a vulnerability assessment. Tools included Burp Suite for web application analysis, Nmap for network scanning, and Wireshark for traffic analysis.</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Tools -->
   <section id="tools" class="py-16">
-    <div class="container mx-auto px-6">
+    <div class="container mx-auto px-6 glass p-10">
       <h3 class="text-2xl font-bold mb-6">Tools</h3>
-      <p class="text-gray-400">Coming soon: Nmap automation, other security scripts...</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-6 rounded-lg border border-gray-700">
+          <h4 class="font-bold text-lg mb-2">Nmap Automation Script</h4>
+          <p class="text-gray-400">Coming soon. A Python script to automate Nmap scans for reconnaissance.</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="py-16 bg-gray-800">
-    <div class="container mx-auto px-6">
+  <section id="contact" class="py-16">
+    <div class="container mx-auto px-6 glass p-10">
       <h3 class="text-2xl font-bold mb-6">Contact</h3>
       <p>Email: <a href="mailto:rajsm029@gmail.com" class="text-blue-400">rajsm029@gmail.com</a></p>
       <p>GitHub: <a href="https://github.com/rajzzz" target="_blank" class="text-blue-400">github.com/rajzzz</a></p>
@@ -64,4 +77,3 @@
 
 </body>
 </html>
-
